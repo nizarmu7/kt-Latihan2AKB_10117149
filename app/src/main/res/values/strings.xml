@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Lat2.10117149</string>
+    <string name="or">OR</string>
+    <string name="connect">CONNECT WITH FACEBOOK</string>
+    <string name="register">doesn\'t have account ?<b> Register</b></string>
+    <string name="h_register">Register</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="Rpassword">Retype Password</string>
+    <string name="personal">Personal</string>
+    <string name="organization">Organization</string>
+    <string name="homeAddres">Home Address</string>
+    <string name="dLoc">Default Location</string>
+    <string name="agree">Agree with Terms and Conditions</string>
+    <string name="almost_thr">Almost There</string>
+    <string name="thank">Thank you for registering with us. One more \n step, you need to check your email \n to active your account</string>
+    <string name="verify">VERIFY</string>
+    <string name="verifyacc">Verify your Account</string>
+    <string name="veremail">we have send verification code to your email</string>
+    <string name="enterverf">enter verification code here...</string>
+    <string name="send">Send</string>
+    <string name="resendCoded">doesn\'t get the code ?<b> Resend</b></string>
+    <string name="nama">Tian Anugerah Mulyana</string>
+    <string name="blood">Blood Type : B</string>
+    <string name="juma">75</string>
+    <string name="bloodgive">BLOOD GIVE</string>
+    <string name="tus">100</string>
+    <string name="bRece">BLOOD RECEIVED</string>
+    <string name="gagaluh">330</string>
+    <string name="Thank">THANKS</string>
+    <string name="sd"><b>Search Donor</b></string>
+    <string name="sdny">Search donor near you</string>
+    <string name="bn"><b>Blood Needed</b></string>
+    <string name="users">4 Users need blood</string>
+    <string name="message"><b>Message</b></string>
+    <string name="nm">5 New Messages</string>
+    <string name="dh"><b>Donor History</b></string>
+    <string name="gr">5 Gives, 2 Received</string>
+    <string name="register_btn">doesn\'t have account? Register</string>
+    <string name="isi_username">isi username</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="donear">Search donor near you</string>
+    <string name="login">Login</string>
+    <string name="connect_with_facebook">CONNECT WITH FACEBOOK</string>
+
+    <string-array name="darah">
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>reshus</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+</resources>
