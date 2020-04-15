@@ -1,4 +1,11 @@
 package com.akb.latihan2_10117149
 
-class AlmostActivity {
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class AlmostActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_almost)
+    }
 }
