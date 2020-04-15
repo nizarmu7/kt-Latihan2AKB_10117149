@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_header"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_header_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="@string/phoneNumber"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:text="Male"
+                android:textColor="@color/fontDesc"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:text="female"
+                android:textColor="@color/fontDesc"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/S_bloodType"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_weight="0.5"
+
+                android:entries="@array/darah" />
+
+            <Spinner
+                android:id="@+id/S_reshus"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:entries="@array/reshus"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_Password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="@string/password"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_PasswordR"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/Rpassword"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="5"
+                android:text="@string/personal"
+                android:textColor="@color/fontDesc"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="5"
+                android:text="@string/organization"
+                android:textColor="@color/fontDesc"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:entries="@array/job"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="@string/homeAddres"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:drawableEnd="@drawable/ic_blood_needed_location"
+            android:hint="@string/dLoc"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/agree"
+            android:textColor="@color/fontDesc" />
+
+        <Button
+            android:id="@+id/btn_Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button_regist"
+            android:text="@string/h_register"
+            android:textColor="@color/fontDesc" />
+    </LinearLayout>
+</LinearLayout>
