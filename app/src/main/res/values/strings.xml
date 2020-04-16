@@ -2,8 +2,8 @@
     <string name="app_name">Lat2.10117149</string>
     <string name="or">OR</string>
     <string name="connect">CONNECT WITH FACEBOOK</string>
-    <string name="register">doesn\'t have account ?<b> Register</b></string>
-    <string name="h_register">Register</string>
+    <string name="register">doesn\'t have account ?<b>Register</b></string>
+    <string name="h_register"><b>Register</b></string>
     <string name="email">Email</string>
     <string name="phoneNumber">Phone Number</string>
     <string name="male">Male</string>
@@ -22,7 +22,7 @@
     <string name="enterverf">enter verification code here...</string>
     <string name="send">Send</string>
     <string name="resendCoded">doesn\'t get the code ?<b> Resend</b></string>
-    <string name="nama">Tian Anugerah Mulyana</string>
+    <string name="nama">Nizar</string>
     <string name="blood">Blood Type : B</string>
     <string name="juma">75</string>
     <string name="bloodgive">BLOOD GIVE</string>
@@ -38,7 +38,7 @@
     <string name="nm">5 New Messages</string>
     <string name="dh"><b>Donor History</b></string>
     <string name="gr">5 Gives, 2 Received</string>
-    <string name="register_btn">doesn\'t have account? Register</string>
+    <string name="register_btn">doesn\'t have account? <b>Register</b> </string>
     <string name="isi_username">isi username</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
@@ -47,6 +47,7 @@
     <string name="connect_with_facebook">CONNECT WITH FACEBOOK</string>
 
     <string-array name="darah">
+        <item>Blood Type</item>
         <item>A</item>
         <item>B</item>
         <item>O</item>
@@ -54,14 +55,13 @@
     </string-array>
     <string-array name="job">
         <item>Job</item>
-        <item>B</item>
-        <item>O</item>
-        <item>AB</item>
+        <item>Job 1</item>
+        <item>Job 2</item>
+        <item>Job 3</item>
     </string-array>
     <string-array name="reshus">
-        <item>reshus</item>
-        <item>B</item>
-        <item>O</item>
-        <item>AB</item>
+        <item>Reshus</item>
+        <item>Positif</item>
+        <item>Negatif</item>
     </string-array>
 </resources>

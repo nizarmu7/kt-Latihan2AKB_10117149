@@ -38,14 +38,16 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/usnm"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="5dp"
             android:hint="@string/username"
-            android:inputType="text"
+            android:inputType="textCapSentences"
             android:textSize="14sp" />
 
         <EditText
+            android:id="@+id/mail"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:hint="@string/email"
@@ -97,7 +99,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="25dp"
                 android:layout_weight="0.5"
-
                 android:entries="@array/darah" />
 
             <Spinner
@@ -171,6 +172,7 @@
             android:textSize="14sp" />
 
         <CheckBox
+            android:id="@+id/agree"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="10dp"
