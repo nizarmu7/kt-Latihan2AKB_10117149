@@ -1,5 +1,12 @@
 package com.akb.latihan2_10117149
 
+/*
+Tanggal Pengerjaan : 15,16,17 April 2020
+NIM : 10117149
+NAMA : M NIZAR MIFTAHUL ULYA
+KELAS : IF4
+*/
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent

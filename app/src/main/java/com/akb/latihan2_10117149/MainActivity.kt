@@ -17,3 +17,18 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+/*
+Tanggal Pengerjaan : 15 April 2020
+Deskripsi Pengerjaan : Membuat project awal dan membuat MainActivity, RegisterActivity, AlmostActivity, VerifyActivity beserta layoutnya.
+
+Tanggal Pengerjaan : 16 April 2020
+Deskripsi Pengerjaan : Pembuatan Activity Home dan Validasi Nama & Golongan darah
+
+Tanggal Pengerjaan : 17 April 2020
+Deskripsi Pengerjaan : Menambahkan validasi checkbox Agree &  Generate APK
+
+NIM : 10117149
+NAMA : M NIZAR MIFTAHUL ULYA
+KELAS : IF4
+*/

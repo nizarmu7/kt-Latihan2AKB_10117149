@@ -1,5 +1,12 @@
 package com.akb.latihan2_10117149
 
+/*
+Tanggal Pengerjaan : 15,16,17 April 2020
+NIM : 10117149
+NAMA : M NIZAR MIFTAHUL ULYA
+KELAS : IF4
+*/
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -60,10 +67,20 @@ class RegisterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            val intent = Intent(this, AlmostActivity::class.java)
-            intent.putExtra("Nama", name)
-            intent.putExtra("Blood", jdarah)
-            startActivity(intent)
+
+            if(agree.isChecked())
+            {
+                val intent = Intent(this, AlmostActivity::class.java)
+                intent.putExtra("Nama", name)
+                intent.putExtra("Blood", jdarah)
+                startActivity(intent)
+            }
+            else
+            {
+                Toast.makeText(this,"Silahkan Centang Agree with Terms and Conditions Terlebih Dahulu",Toast.LENGTH_SHORT).show();
+            }
         }
     }
 }
+
+
